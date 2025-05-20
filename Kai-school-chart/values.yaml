@@ -25,7 +25,7 @@ securityContext:
 
 readinessProbe:
   httpGet:
-    path: /predict
+    path: /health
     port: 5000
   initialDelaySeconds: 5
   periodSeconds: 10
